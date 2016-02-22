@@ -1,0 +1,4 @@
+# python stuff
+*.obj
+*.pickle
+*.pyc
