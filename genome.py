@@ -18,6 +18,10 @@ SEX_UNKNOWN = 0
 SEX_MALE = 1
 SEX_FEMALE = 2
 
+PHASE_UNKNOWN = -1
+PHASE_MATERNAL = 0
+PHASE_PATERNAL = 1
+
 AUTOSOMES = [ "chr"+str(c) for c in range(1,20) ]
 CHROMS = AUTOSOMES + [ "chrX","chrY","chrM" ]
 PLOIDY = {	SEX_UNKNOWN:	{ "chrX": 2, "chrY": 1, "chrM": 1 },
