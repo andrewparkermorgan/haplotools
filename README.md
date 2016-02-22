@@ -9,7 +9,7 @@ Dependencies:
 
 # Usage
 
-```
+```python
 import genome
 
 # manually construct genome as mosaic of haplotype segments
